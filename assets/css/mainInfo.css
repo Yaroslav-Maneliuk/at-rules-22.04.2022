@@ -1,11 +1,26 @@
 .main-info > h2{
   color: tomato;
   font-family: Lato;
+  font-size: 2rem;
 }
 
-@media print{
+/* @media screen and (max-width: 576px){
   .main-info > h2{
-    color: #000;
-    border: 1px solid #000;
+    color: tomato;
+    border-bottom: 5px dotted teal;
+  }
+} */
+@media screen and (min-width: 576px){
+  .main-info > h2{
+    color: tomato;
+    border-bottom: none;
+    border-top: 5px dotted teal;
+  }
+}
+@media screen and (min-width: 768px){
+  .main-info > h2{
+    color: tomato;
+    border-top: none;
+    border-right: 5px dotted teal;
   }
 }
