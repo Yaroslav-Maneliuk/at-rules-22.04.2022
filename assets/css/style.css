@@ -1,10 +1,14 @@
 @import url(./reset.css);
 @import url(./fonts.css);
 @import url(./mainInfo.css);
+@import url(./userCard.css);
 
 
 :root{
-  font-size: 60px;
+  font-size: 20px;
+}
+*{
+  box-sizing: border-box;
 }
 h2{
   color: teal;
