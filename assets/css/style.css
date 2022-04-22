@@ -2,14 +2,10 @@
 @import url(./reset.css);
 /* @import './reset.css'; */
 @import url(./fonts.css);
+@import url(./general.css);
+@import url(./screen.css) screen;
+@import url(./print.css) print;
 
-*{
-  box-sizing: border-box;
-}
-h1{
-  font-family: 'Square Peg', cursive;
-}
-h2{
-font-family: Lato, sans-serif;
-font-style: italic;
+:root{
+  font-size: 60px;
 }
