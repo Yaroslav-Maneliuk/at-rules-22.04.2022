@@ -13,3 +13,9 @@
 h2{
   color: teal;
 }
+p{
+  padding: 10px;
+}
+img{
+  width: 100%;
+}
